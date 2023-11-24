@@ -1,0 +1,22 @@
+<main>
+    <h1>Blog Posts</h1>
+    <nav>
+        <a href="new/post">New Post</a>
+        <% if(user != undefined) {%>
+        <a href="auth/signup">Signup</a>
+        <%}%>
+    </nav>
+    <section>
+        <% posts.forEach((post)=> { %>
+            <li>
+                <h2>
+                    <%= post.title %>
+                </h2>
+                <p>
+                    <%= post.body %>
+                </p>
+            </li>
+            <hr />
+            <% }) %>
+    </section>
+</main>

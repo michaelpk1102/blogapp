@@ -1,0 +1,41 @@
+Arguments: 
+  /home/jon/.nvm/versions/node/v18.17.1/bin/node /home/jon/.nvm/versions/node/v18.17.1/bin/yarn add express dontenv mongoose
+
+PATH: 
+  /home/jon/.phpenv/shims:/home/jon/.phpenv/bin:/home/jon/.bun/bin:/home/jon/anaconda3/bin:/home/jon/anaconda3/condabin:/home/jon/.nvm/versions/node/v18.17.1/bin:/home/jon/.local/bin:/home/jon/bin:/home/jon/.cargo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/opt/android-studio/bin:/home/jon/Android/Sdk/emulator:/home/jon/Android/Sdk/platform-tools:/home/jon/flutter/bin:/home/jon/android-studio/bin:/opt/android-studio/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.npmjs.org/dontenv: Not found
+      at params.callback [as _callback] (/home/jon/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/jon/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/home/jon/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/home/jon/.nvm/versions/node/v18.17.1/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "blog",
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
